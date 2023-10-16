@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a60ff74-b239-40e8-8a40-0da440b0e448" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/component/AbsBaseComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/component/MenuComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/popups/AbsPopupBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/popups/AlertPopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/components/popups/IPopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/drivers/AppiumSelenideDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/extentions/AndroidExtension.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AbsBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ChatPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/StartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/StatisticPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Andy-253457-8dbf88.apk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/checkstyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Andy_Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,15 +141,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>15</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/Andy_Test.java</url>
-          <line>32</line>
-          <properties class="Andy_Test" method="pageMenuButtonVisible_Test">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
