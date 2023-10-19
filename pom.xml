@@ -22,7 +22,7 @@
     <checkstyle.plugin.version>3.3.0</checkstyle.plugin.version>
     <spotbugs.version>4.7.3.4</spotbugs.version>
 
-    <appiumServerUrl>127.0.0.1:4723</appiumServerUrl>
+    <appiumServerUrl>192.168.0.39:4723</appiumServerUrl>
 
   </properties>
 
