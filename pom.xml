@@ -22,6 +22,8 @@
     <checkstyle.plugin.version>3.3.0</checkstyle.plugin.version>
     <spotbugs.version>4.7.3.4</spotbugs.version>
 
+    <appiumServerUrl>127.0.0.1:4723</appiumServerUrl>
+
   </properties>
 
   <dependencies>
@@ -65,6 +67,13 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
         <version>${surefire.plugin.version}</version>
+        <configuration>
+          <systemPropertyVariables>
+            <appiumServerUrl>${appiumServerUrl}</appiumServerUrl>
+            <test.project.status>test</test.project.status>
+            <test.project.language>RU</test.project.language>
+          </systemPropertyVariables>
+        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -75,6 +84,7 @@
           <target>1.8</target>
           <showDeprecation>true</showDeprecation>
         </configuration>
+
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
