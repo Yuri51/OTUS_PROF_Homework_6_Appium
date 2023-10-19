@@ -32,7 +32,7 @@
       <artifactId>junit-bom</artifactId>
       <version>${junit.version}</version>
       <type>pom</type>
-      <scope>import</scope>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -71,7 +71,6 @@
           <systemPropertyVariables>
             <appiumServerUrl>${appiumServerUrl}</appiumServerUrl>
             <test.project.status>test</test.project.status>
-            <test.project.language>RU</test.project.language>
           </systemPropertyVariables>
         </configuration>
       </plugin>
