@@ -1,4 +1,4 @@
-imeout(180) {
+timeout(180) {
     node('maven') {
         timestamps {
             wrap([$class: 'BuildUser']) {
