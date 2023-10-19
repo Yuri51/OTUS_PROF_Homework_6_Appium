@@ -12,7 +12,8 @@ timeout(180) {
             }
             stage('Run tests') {
                 tests_exit_code = sh(
-                    script: "mvn test -DplatformName=$PLATFORM_NAME -DdeviceName=$DEVICE_NAME -DplatformVersion=$PLATFORM_VERSION -DappiumServerUrl=$APPIUM_URL",
+                        script: "mvn test -DplatformName=$PLATFORM_NAME -DdeviceName=$DEVICE_NAME -DplatformVersion=$PLATFORM_VERSION -DappiumServerUrl=$APPIUM_URL",
+                        returnStatus: true,
                 )
 
                 if (tests_exit_code != 0) {

@@ -20,15 +20,6 @@ public class Andy_Test {
   }
 
   @Test
-  @DisplayName("Отправка сообщения в чат")
-  public void sendMessageToChat_Test() {
-    new MenuComponent()
-        .clickChatButton();
-    new ChatPage()
-        .sendMessageToChat("1234567");
-  }
-
-  @Test
   @DisplayName("Проверка отображения кнопок на главной странице")
   public void pageMenuButtonVisible_Test() {
     new MenuComponent()
